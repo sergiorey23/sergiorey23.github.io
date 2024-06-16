@@ -29,14 +29,6 @@ $(document).ready(function(){
             });
         } 
     });
-
-    $("#MyCV").on('click', function(event) {
-      event.preventDefault();
-      window.open(
-        'public_html/assets/CV/Sergio Rey CV ES.pdf',
-        '_blank' // <- This is what makes it open in a new window.
-      );    
-    });
 });
 
 // protfolio filters
