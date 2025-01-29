@@ -11858,12 +11858,11 @@ pre .code {
 .header .header-content {
     width: 100%;
     position: absolute;
-    margin-left: 5rem;
     left: 0;
     top: 55%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%) translateX(5rem);
+    -ms-transform: translateY(-50%) translateX(5rem);
+    transform: translateY(-50%) translateX(5rem);
     color: #fff;
 }
 
