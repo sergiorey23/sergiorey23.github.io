@@ -11766,6 +11766,7 @@ pre .code {
 
 .navbar .brand .brand-txt {
     position: relative;
+    margin-right: 210px;
     bottom: -20px;
     opacity: 0;
     -webkit-transition: 1s;
