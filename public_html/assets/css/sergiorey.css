@@ -3510,12 +3510,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #f85c70;
+    color: #0a66c2;
     text-decoration: none;
 }
 
 .btn-link:hover {
-    color: #f51330;
+    color: #004182;
     text-decoration: none;
 }
 
@@ -3527,7 +3527,7 @@ fieldset:disabled a.btn {
 
 .btn-link:disabled,
 .btn-link.disabled {
-    color: #6c757d;
+    color: #7196bb;
     pointer-events: none;
 }
 
@@ -7940,6 +7940,13 @@ button.bg-dark:focus {
     padding-top: 100%;
 }
 
+.flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
 .flex-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
@@ -8162,6 +8169,10 @@ button.bg-dark:focus {
     -webkit-align-self: stretch !important;
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
+}
+
+.gap-2 {
+    gap: 0.5rem !important;
 }
 
 @media (min-width: 576px) {

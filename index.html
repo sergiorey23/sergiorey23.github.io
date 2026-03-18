@@ -38,10 +38,15 @@
                 <div class="header-content">
                     <h4 class="header-subtitle">Hello, I am</h4>
                     <h1 class="header-title">Sergio Rey</h1>
-                    <h6 class="header-mono">Front-End Developer</h6>
-                    <button type="button" onclick="window.open('public_html/assets/CV/Sergio Rey CV ES.pdf', '_blank')" class="btn btn-primary btn-rounded" id="view_resume">
-                        <i class="ti-eye pr-2"></i>View Resume
-                    </button>
+                    <h6 class="header-mono">Full-Stack Developer</h6>
+                    <div class="flex flex-wrap gap-2">
+                        <button type="button" onclick="window.open('public_html/assets/CV/Sergio_Rey_CV_EN.pdf', '_blank')" class="btn btn-primary btn-rounded ml-2" id="view_resume_en">
+                            <i class="ti-eye pr-2"></i>View Resume (EN)
+                        </button>
+                        <button type="button" onclick="window.open('public_html/assets/CV/Sergio_Rey_CV_ES.pdf', '_blank')" class="btn btn-outline-light btn-rounded" id="view_resume">
+                            <i class="ti-eye pr-2"></i>View Resume (ES)
+                        </button>
+                    </div>
                 </div>
             </div>
         </header>
@@ -101,8 +106,8 @@
                         I am a person with great learning ability who is enthusiastic about new technologies and software developtment. Dynamic and constant, with a good predisposition to adapt to
                         changes.
                     </p>
-                    <a type="button" class="btn btn-outline-danger" target="_blank" href="public_html/assets/CV/Sergio Rey CV ES.pdf" download="Sergio Rey CV.pdf"
-                        ><i class="ti-download pr-2"></i>Download My CV</a
+                    <a type="button" class="btn btn-link" target="_blank" href="public_html/assets/CV/Sergio_Rey_LinkedIn_CV.pdf" download="Sergio_Rey_LinkedIn_CV.pdf"
+                        ><i class="ti-download pr-2"></i>Download My LinkedIn CV</a
                     >
                 </div>
                 <div class="col-lg-4 about-card">
@@ -589,8 +594,6 @@
                     <script>
                         document.write(new Date().getFullYear());
                     </script>
-                    Created With <i class="ti-heart text-danger"></i> By
-                    <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a>
                 </p>
             </div>
         </footer>
